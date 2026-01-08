@@ -1,0 +1,420 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans', 'Montserrat';
+    list-style: none;
+}
+
+body{
+    color: #fff;
+    top: 0;
+    margin: 0;
+    position: absolute;
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+
+.video-background-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* min-width: 100vw;
+    min-height: 100vh; */
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    z-index: -1;
+}
+
+/* .video-background-container video {
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    object-fit: cover; 
+} */
+
+/* .video-background-container video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 150vh;
+    object-fit: cover;
+    z-index: -1;
+} */
+
+
+/* CONTENUTO PRINCIPALE SOPRA IL VIDEO */
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.first-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-top: 13em;
+    font-size: 20px;
+}
+
+.first-section span{
+    letter-spacing: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second-section{
+    background-image: url(../img/bg-second-bg2.jpg);
+    background-size: cover;
+    height: 210vh;
+}
+
+.second-section h3{
+    margin: 0px;
+}
+
+.btn{
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.btn-grey{
+    background-color: #98a9b5;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 7px 60px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.btn-grey:hover{
+    border: 1px solid black;
+    transition: 0.3s ease;
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    transition: 0.3s ease;
+    border: 1px solid black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding-top: 110px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.libro{
+    width: 300px;
+}
+
+.trama{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+
+.trama h3{
+    margin-top: 9em;
+}
+
+.trama span{
+    font-style: italic;
+}
+
+.moon img{
+    width: 63%;
+}
+
+.moon{
+    background-color: #00070f;
+    margin-top: -150px;
+    padding-bottom: 9em;
+    padding-left: 3em;
+}
+
+.third-section{
+    background-image: url(../img/bg-third-black.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
+    background-attachment: fixed
+}
+
+.third-section h3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 9em;
+}
+
+.third-section p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fourth-section{
+    background-color: black;
+    padding-top: 60px;
+}
+
+.fourth-section h3{
+    margin: 0;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.row2 p{
+    width: 50%;
+}
+
+.row2{
+    padding-bottom: 110px;
+}
+
+.row2 span{
+    font-style: italic;
+}
+
+.autore{
+    width: 400px;
+}
+
+.fifth-section{
+    background-image: url(../img/fifth-bg.jpg);
+    background-size: cover;
+    padding-bottom: 15em;
+}
+
+.fifth-section h3{
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.row3 h4{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.row3 h5{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.row3 h5 span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.row3 h5{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.btn-white{
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 7px 70px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-white:hover{
+    border: 1px solid black;
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+}
+
+.video-background-container2 {
+    position: relative; /* Per posizionare gli elementi figli */
+    width: 100%;
+    padding-bottom: 20em;
+    overflow: hidden; /* Nasconde le parti di video fuori dal contenitore */
+    display: flex; /* Per centrare il contenuto se necessario */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.video-background-container2 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Mette il video dietro il contenuto */
+    object-fit: cover; /* Assicura che il video copra l'area senza distorsioni */
+}
+
+.sixth-section a{
+    text-decoration: none;
+}
+
+.sixth-section{
+    height: 55vh;
+}
+
+.sixth-section h2{
+    margin-top: 0px;
+    text-align: center; 
+    letter-spacing: 7px;
+    font-size: 30px;
+    padding-top: 9em;
+}
+
+.sixth-section img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.seventh-section{
+    background-image: url(../img/seven-bg.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+
+.row4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 20em;
+}
+
+.form-control{
+    background-color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 15px 140px 15px 20px;
+    font-size: 17px;
+    font-family: 'OpenSans', 'Montserrat';
+}
+
+#defaultCheck1{
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.form-check-label{
+    font-size: 15px;
+}
+
+.btn-form{
+    background-color: #98a9b5;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 160px;
+    border: none;
+    font-family: 'OpenSans', 'Montserrat';
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-form:hover{
+    background-color: transparent;
+    transition: 0.7s ease;
+    border: 1px solid white;
+}
+
+.footer{
+    margin: 0 auto;
+    margin-top: 18em;
+    width: 65%;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.row5{
+    display: flex;
+    justify-content:space-around;
+}
+
